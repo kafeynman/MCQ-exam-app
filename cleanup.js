@@ -18,30 +18,32 @@ fs.readFile(path.join(__dirname, inputFile), 'utf8', (err, data) => {
     try {
         const v22_data = JSON.parse(data);
 
-        // 2. Transform the data
+        // 2. Transform the questions
+        const transformedQuestions = v22_data.questions.map(q => {
+            const spanTagRegex = /\[span_\d+\]\((start_span|end_span)\)/g;
+
+            return {
+                id: q.id,
+                bok_reference: q.bok_reference,
+                difficulty: q.difficulty,
+                question_text: q.question_text,
+                options: q.options,
+                correct_answer: q.correct_answer,
+                solution: {
+                    correct_rationale: q.solution.correct_rationale.replace(spanTagRegex, '').trim(),
+                    distractor_analysis: q.solution.distractor_analysis.replace(spanTagRegex, '').trim(),
+                }
+            };
+        });
+        
         const transformedData = {
             metadata: {
-                total_questions: v22_data.questions.length, // Recalculate just in case
-                difficulty_distribution: v22_data.metadata.difficulty_distribution,
+                total_questions: transformedQuestions.length,
+                difficulty_distribution: {}, // Will be recalculated
             },
-            questions: v22_data.questions.map(q => {
-                const spanTagRegex = /\[span_\d+\]\((start_span|end_span)\)/g;
-
-                return {
-                    id: q.id,
-                    bok_reference: q.bok_reference,
-                    difficulty: q.difficulty,
-                    question_text: q.question_text,
-                    options: q.options,
-                    correct_answer: q.correct_answer,
-                    solution: {
-                        correct_rationale: q.solution.correct_rationale.replace(spanTagRegex, '').trim(),
-                        distractor_analysis: q.solution.distractor_analysis.replace(spanTagRegex, '').trim(),
-                    }
-                };
-            })
+            questions: transformedQuestions
         };
-        
+
         // Recalculate difficulty distribution
         const newDistribution = { Easy: 0, Medium: 0, Hard: 0 };
         transformedData.questions.forEach(q => {
