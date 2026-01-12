@@ -1,0 +1,5 @@
+{
+  "name": "Advanced Exam & Practice System",
+  "description": "A comprehensive, production-ready exam and practice system. It supports timed exam modes with specific question distributions and customizable, untimed practice sessions. Features include state management with auto-save, detailed results analysis with charts, and report generation.",
+  "requestFramePermissions": []
+}

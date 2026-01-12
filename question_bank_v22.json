@@ -1,0 +1,915 @@
+{
+  "metadata": {
+    "total_questions": 50,
+    "last_session": 1,
+    "difficulty_distribution": {
+      "Easy": 10,
+      "Medium": 15,
+      "Hard": 25
+    },
+    "bok_source": "ASQ CQA BoK 2019",
+    "handbook_source": "The ASQ Certified Quality Auditor Handbook, 5th Ed"
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "bok_reference": "I.A.1, Method, Remember",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "Which type of audit is performed by an organization on its own system to ensure internal requirements are met?",
+      "options": {
+        "A": "First-party audit",
+        "B": "Second-party audit",
+        "C": "Third-party audit",
+        "D": "Regulatory audit"
+      },
+      "correct_answer": "A",
+      "solution": {
+        "correct_rationale": "A first-party audit is an internal audit conducted by an organization on its own processes or systems.",
+        "distractor_analysis": "Second-party audits are supplier audits (B). Third-party audits are conducted by independent certification bodies (C). Regulatory audits are by government agencies (D)"
+      }
+    },
+    {
+      "id": "Q002",
+      "bok_reference": "V.A.3, Flowcharts, Remember",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "In a standard flowchart, what does a rectangle represent?",
+      "options": {
+        "A": "A decision point",
+        "B": "A process step or task",
+        "C": "The start or end of a process",
+        "D": "A document"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_4](start_span)"correct_rationale": "A rectangle is the standard symbol for a task or operation in a process.[span_4](end_span)",
+        [span_5](start_span)"distractor_analysis": "Diamonds represent decisions (A), ovals represent start/end (C), and a wavy-bottomed rectangle represents a document (D).[span_5](end_span)"
+      }
+    },
+    {
+      "id": "Q003",
+      "bok_reference": "II.B.1, Opening Meeting, Remember",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "What is the primary purpose of an audit opening meeting?",
+      "options": {
+        "A": "To issue the final audit findings",
+        "B": "To introduce the team and confirm the audit plan",
+        "C": "To train the auditee on quality standards",
+        "D": "To perform root cause analysis on known issues"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_6](start_span)"correct_rationale": "The opening meeting introduces the team, confirms the scope, and reviews the plan with the auditee.[span_6](end_span)",
+        "distractor_analysis": "Findings are issued at the closing meeting (A). [span_7](start_span)Training (C) and root cause analysis (D) are outside the scope of an opening meeting.[span_7](end_span)"
+      }
+    },
+    {
+      "id": "Q004",
+      "bok_reference": "IV.B.3, Cost of Quality, Understand",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "Which category of Cost of Quality (CoQ) includes the costs associated with quality audits themselves?",
+      "options": {
+        "A": "Internal failure costs",
+        "B": "External failure costs",
+        "C": "Appraisal costs",
+        "D": "Prevention costs"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_8](start_span)"correct_rationale": "Appraisal costs are expenses related to measuring and monitoring activities, including audits.[span_8](end_span)",
+        "distractor_analysis": "Failure costs (A, B) relate to defects. [span_9](start_span)Prevention costs (D) are for activities designed to prevent defects before they happen.[span_9](end_span)"
+      }
+    },
+    {
+      "id": "Q005",
+      "bok_reference": "I.E.1, Ethics, Understand",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "According to the ASQ Code of Ethics, auditors must avoid which of the following?",
+      "options": {
+        "A": "Conflicts of interest",
+        "B": "Using checklists",
+        "C": "Reviewing confidential data",
+        "D": "Interviewing non-management staff"
+      },
+      "correct_answer": "A",
+      "solution": {
+        [span_10](start_span)"correct_rationale": "Auditors are ethically bound to avoid and disclose any potential conflicts of interest.[span_10](end_span)",
+        "distractor_analysis": "Checklists (B) are tools. [span_11](start_span)Reviewing data (C) and interviews (D) are standard audit activities.[span_11](end_span)"
+      }
+    },
+    {
+      "id": "Q006",
+      "bok_reference": "V.A.5, Checklists, Understand",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "What is a major advantage of using an audit checklist?",
+      "options": {
+        "A": "It eliminates the need for professional judgment",
+        "B": "It ensures the audit stays within the defined scope",
+        "C": "It prevents the auditor from following new leads",
+        "D": "It guarantees that all nonconformities will be found"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_12](start_span)"correct_rationale": "Checklists help manage time and ensure that all planned areas within the scope are covered.[span_12](end_span)",
+        "distractor_analysis": "Judgment is still required (A). [span_13](start_span)Checklists should be flexible, not restrictive (C), and finding all nonconformities is not guaranteed (D).[span_13](end_span)"
+      }
+    },
+    {
+      "id": "Q007",
+      "bok_reference": "V.C.1, Central Tendency, Understand",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "In a data set, the value that occurs most frequently is called the:",
+      "options": {
+        "A": "Mean",
+        "B": "Median",
+        "C": "Mode",
+        "D": "Standard Deviation"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_14](start_span)"correct_rationale": "The mode is the most frequently occurring value in a distribution.[span_14](end_span)",
+        "distractor_analysis": "Mean is the average (A). Median is the middle value (B). [span_15](start_span)Standard deviation is a measure of spread (D).[span_15](end_span)"
+      }
+    },
+    {
+      "id": "Q008",
+      "bok_reference": "I.A.2, Relationships, Understand",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "The 'client' of an audit is best defined as the:",
+      "options": {
+        "A": "Department being audited",
+        "B": "Person or organization requesting the audit",
+        "C": "Supplier providing parts",
+        "D": "Final consumer of the product"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_16](start_span)"correct_rationale": "The client is the person or entity with the authority to request the audit.[span_16](end_span)",
+        "distractor_analysis": "The department being audited is the 'auditee' (A). [span_17](start_span)Suppliers (C) and consumers (D) are stakeholders but not necessarily the client.[span_17](end_span)"
+      }
+    },
+    {
+      "id": "Q009",
+      "bok_reference": "III.B.1, Communication, Understand",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "Which type of question is most effective for an auditor to use during an interview to gather detailed information?",
+      "options": {
+        "A": "Closed-ended",
+        "B": "Leading",
+        "C": "Open-ended",
+        "D": "Dichotomous"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_18](start_span)"correct_rationale": "Open-ended questions (Who, What, How) encourage the auditee to provide detailed descriptions.[span_18](end_span)",
+        "distractor_analysis": "Closed (A) and dichotomous (D) questions yield yes/no answers. [span_19](start_span)Leading questions (B) bias the answer.[span_19](end_span)"
+      }
+    },
+    {
+      "id": "Q010",
+      "bok_reference": "V.E.1, Acceptance Sampling, Understand",
+      "difficulty": "Easy",
+      "is_scenario": false,
+      "question_text": "Which sampling method involves selecting items at a fixed interval, such as every 10th item?",
+      "options": {
+        "A": "Random sampling",
+        "B": "Systematic sampling",
+        "C": "Haphazard sampling",
+        "D": "Stratified sampling"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_20](start_span)"correct_rationale": "Systematic sampling uses a fixed interval (k) to select items from a list or process.[span_20](end_span)",
+        "distractor_analysis": "Random sampling (A) uses random numbers. Haphazard (C) lacks a systematic method. [span_21](start_span)Stratified (D) divides the population into groups first.[span_21](end_span)"
+      }
+    },
+    {
+      "id": "Q011",
+      "bok_reference": "II.A.1, Planning, Apply",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "An auditor is planning an audit of a new software development process. The project documentation is incomplete, and the team is using an Agile methodology that wasn't previously audited. What should be the auditor's first step?",
+      "options": {
+        "A": "Cancel the audit until documentation is complete",
+        "B": "Perform a desk audit (adequacy audit) of existing procedures against the standard",
+        "C": "Skip the planning phase and go straight to interviewing the developers",
+        "D": "Issue a nonconformity for lack of documentation before starting the audit"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_22](start_span)[span_23](start_span)"correct_rationale": "An adequacy audit (desk audit) determines if the planned system meets requirements before verifying its implementation.[span_22](end_span)[span_23](end_span)",
+        "distractor_analysis": "Cancelling (A) is extreme. Skipping planning (C) leads to inefficiency. [span_24](start_span)[span_25](start_span)Issuing a nonconformity (D) before the audit starts is premature.[span_24](end_span)[span_25](end_span)"
+      }
+    },
+    {
+      "id": "Q012",
+      "bok_reference": "V.A.8, Root Cause Analysis, Apply",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "During an audit follow-up, the auditee presents a '5 Whys' analysis for a missing calibration record. The final 'why' identifies 'Human Error' as the root cause. How should the auditor respond?",
+      "options": {
+        "A": "Accept the response and close the finding",
+        "B": "Reject the response, as 'human error' is usually a symptom of a deeper system failure",
+        "C": "Suggest the auditee fire the employee involved",
+        "D": "Ask for the employee's training record to confirm the human error"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_26](start_span)"correct_rationale": "Effective root cause analysis looks for system issues (process, environment, or tools) rather than just blaming an individual.[span_26](end_span)",
+        "distractor_analysis": "Accepting human error (A) allows recurrence. Firing (C) is not a system correction. [span_27](start_span)[span_28](start_span)Training records (D) may be relevant but don't address the 'human error' as a root cause.[span_27](end_span)[span_28](end_span)"
+      }
+    },
+    {
+      "id": "Q013",
+      "bok_reference": "IV.A.1, Management Support, Analyze",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "A quality manager discovers that several departments are refusing to allow auditors into their areas. When the manager brings this to senior leadership, they are told to 'work it out' without executive interference. What is the most significant risk to the audit program here?",
+      "options": {
+        "A": "Increased travel costs for the auditors",
+        "B": "Loss of authority and program ineffectiveness",
+        "C": "Need for better auditor interpersonal training",
+        "D": "Exceeding the audit budget"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_29](start_span)"correct_rationale": "Without active senior management support and established authority, an audit program cannot overcome organizational resistance.[span_29](end_span)",
+        "distractor_analysis": "Budget (D) and costs (A) are secondary to the fundamental failure of authority. [span_30](start_span)Interpersonal skills (C) won't solve a systemic lack of management backing.[span_30](end_span)"
+      }
+    },
+    {
+      "id": "Q014",
+      "bok_reference": "V.A.4, SPC Charts, Apply",
+      "difficulty": "Medium",
+      "is_scenario": false,
+      "question_text": "An auditor reviews a control chart and sees seven consecutive points on one side of the mean, even though all points are within the control limits. This should be reported as:",
+      "options": {
+        "A": "A process in statistical control",
+        "B": "A run, indicating a likely special cause",
+        "C": "A common cause variation",
+        "D": "A standard normal distribution"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_31](start_span)"correct_rationale": "A 'run' of points on one side of the mean is a non-random pattern indicating the process has shifted due to a special cause.[span_31](end_span)",
+        "distractor_analysis": "It is not in control (A) if non-random patterns exist. [span_32](start_span)[span_33](start_span)It is special cause, not common cause (C).[span_32](end_span)[span_33](end_span)"
+      }
+    },
+    {
+      "id": "Q015",
+      "bok_reference": "II.C.1, Report Content, Apply",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "In a final audit report, the auditor includes a finding stating: 'The calibration process is poorly managed.' Why is this statement problematic?",
+      "options": {
+        "A": "It is too specific",
+        "B": "It lacks objective evidence and specific reference to a requirement",
+        "C": "It is too complimentary to the auditee",
+        "D": "It was not discussed in the opening meeting"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_34](start_span)[span_35](start_span)"correct_rationale": "Findings must be supported by objective evidence and contrasted against a specific requirement (criteria).[span_34](end_span)[span_35](end_span)",
+        "distractor_analysis": "It is vague, not specific (A). It is critical, not complimentary (C). [span_36](start_span)Findings are discussed at closing, not opening (D).[span_36](end_span)"
+      }
+    },
+    {
+      "id": "Q016",
+      "bok_reference": "III.C, Conflict Resolution, Apply",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "During an audit, the auditee's manager begins to argue loudly that the auditor is misinterpreting the ISO 9001 standard. Which conflict resolution approach is most professional for the auditor?",
+      "options": {
+        "A": "Argue back to show who is in charge",
+        "B": "Remain calm, state the evidence found, and suggest deferring the discussion to the closing meeting",
+        "C": "Agree with the manager immediately to stop the yelling",
+        "D": "Walk out and call the police"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_37](start_span)"correct_rationale": "Auditors should stay professional, focus on facts, and manage difficult situations without escalating emotions.[span_37](end_span)",
+        "distractor_analysis": "Arguing (A) is unprofessional. Giving in (C) compromises audit integrity. [span_38](start_span)Walking out (D) is a last resort and usually involves management, not police.[span_38](end_span)"
+      }
+    },
+    {
+      "id": "Q017",
+      "bok_reference": "V.D.1, Theory of Variation, Apply",
+      "difficulty": "Medium",
+      "is_scenario": false,
+      "question_text": "When a process is affected by common cause variation only, what action should management take?",
+      "options": {
+        "A": "Adjust the machine settings after every measurement",
+        "B": "Investigate the specific operator who caused the variation",
+        "C": "Change the underlying system or process to reduce the variation",
+        "D": "Do nothing, as common cause variation is impossible to reduce"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_39](start_span)"correct_rationale": "Common cause variation is inherent in the system; reducing it requires management to change the system itself.[span_39](end_span)",
+        "distractor_analysis": "Adjusting after every point (A) is 'tampering' and increases variation. Common cause is not due to specific operators (B). [span_40](start_span)It can be reduced through system changes (D).[span_40](end_span)"
+      }
+    },
+    {
+      "id": "Q018",
+      "bok_reference": "II.D.4, Ineffective CAPA, Apply",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "A follow-up audit shows that a corrective action for a major nonconformity was implemented, but the same error recurred two months later. What is the auditor's best course of action?",
+      "options": {
+        "A": "Close the finding because the plan was followed",
+        "B": "Keep the finding open as 'ineffective' and request a new root cause analysis",
+        "C": "Write a new, separate nonconformity",
+        "D": "Perform the corrective action for the auditee to ensure success"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_41](start_span)[span_42](start_span)"correct_rationale": "If a problem recurs, the corrective action was ineffective, indicating the true root cause was not addressed.[span_41](end_span)[span_42](end_span)",
+        "distractor_analysis": "Closing it (A) is wrong because the risk remains. A new finding (C) is possible but usually, the existing one is reopened. [span_43](start_span)Auditors must never perform the auditee's work (D).[span_43](end_span)"
+      }
+    },
+    {
+      "id": "Q019",
+      "bok_reference": "IV.A.3, Auditor Training, Apply",
+      "difficulty": "Medium",
+      "is_scenario": false,
+      "question_text": "Which of the following is the most important factor when selecting an audit team for a highly technical manufacturing process?",
+      "options": {
+        "A": "Ensuring all auditors have the same years of experience",
+        "B": "Matching auditor technical competence with the process being audited",
+        "C": "Selecting auditors who have never seen the process before",
+        "D": "Ensuring the auditors are friends with the department manager"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_44](start_span)[span_45](start_span)"correct_rationale": "Auditor selection must be based on the competence needed to achieve the audit's objectives, including technical knowledge.[span_44](end_span)[span_45](end_span)",
+        "distractor_analysis": "Experience levels can vary (A). Total lack of knowledge (C) is a risk, not an asset. [span_46](start_span)[span_47](start_span)Friendships (D) cause conflicts of interest.[span_46](end_span)[span_47](end_span)"
+      }
+    },
+    {
+      "id": "Q020",
+      "bok_reference": "V.A.1, Pareto Charts, Apply",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "An audit program manager wants to prioritize which supplier to audit next. They have a list of defect counts by supplier. Which tool will best help them identify which suppliers contribute to 80% of the total defects?",
+      "options": {
+        "A": "Histogram",
+        "B": "Pareto Chart",
+        "C": "Scatter Diagram",
+        "D": "Flowchart"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_48](start_span)"correct_rationale": "A Pareto chart applies the 80/20 rule to help prioritize the most significant problems.[span_48](end_span)",
+        "distractor_analysis": "Histograms show distribution (A). Scatter diagrams show correlation (C). [span_49](start_span)[span_50](start_span)Flowcharts show process steps (D).[span_49](end_span)[span_50](end_span)"
+      }
+    },
+    {
+      "id": "Q021",
+      "bok_reference": "II.B.3, Data Collection, Apply",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "During an interview, an employee describes a process that is significantly different from the written procedure. What should the auditor do next?",
+      "options": {
+        "A": "Immediately write a nonconformity report",
+        "B": "Ask the employee to show them the step-by-step process (corroboration)",
+        "C": "Tell the employee they are doing it wrong and should read the manual",
+        "D": "Ignore it, as the written procedure is more important than what people actually do"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_51](start_span)[span_52](start_span)"correct_rationale": "Auditors should corroborate verbal information through observation or reviewing records to establish objective evidence.[span_51](end_span)[span_52](end_span)",
+        "distractor_analysis": "Writing a report (A) is premature without verification. Instructing the employee (C) is not the auditor's role. [span_53](start_span)Ignoring the gap (D) misses the audit's purpose.[span_53](end_span)"
+      }
+    },
+    {
+      "id": "Q022",
+      "bok_reference": "V.B.2, Lean, Apply",
+      "difficulty": "Medium",
+      "is_scenario": false,
+      "question_text": "In a Lean manufacturing audit, 'Overproduction' is classified as:",
+      "options": {
+        "A": "A value-added activity",
+        "B": "One of the eight wastes (Muda)",
+        "C": "A sign of a highly efficient system",
+        "D": "A requirement of ISO 9001"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_54](start_span)"correct_rationale": "Overproduction is considered one of the primary forms of waste in Lean methodology.[span_54](end_span)",
+        [span_55](start_span)"distractor_analysis": "It is non-value-added (A), inefficient (C), and not required by ISO (D).[span_55](end_span)"
+      }
+    },
+    {
+      "id": "Q023",
+      "bok_reference": "I.D.2, Roles and Responsibilities, Apply",
+      "difficulty": "Medium",
+      "is_scenario": false,
+      "question_text": "What is the primary role of an 'Escort' during an audit?",
+      "options": {
+        "A": "To answer all the auditor's questions for the employees",
+        "B": "To act as a witness for the auditee and facilitate the auditor's movement",
+        "C": "To correct nonconformities as soon as the auditor finds them",
+        "D": "To verify the auditor's technical credentials"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_56](start_span)[span_57](start_span)"correct_rationale": "The escort assists with logistics, ensures safety, and acts as a witness for the auditee.[span_56](end_span)[span_57](end_span)",
+        "distractor_analysis": "Escorts should not answer for employees (A). They don't typically correct issues during the audit (C). [span_58](start_span)[span_59](start_span)Verification of credentials (D) is usually done by management earlier.[span_58](end_span)[span_59](end_span)"
+      }
+    },
+    {
+      "id": "Q024",
+      "bok_reference": "V.D.3, Outliers, Analyze",
+      "difficulty": "Medium",
+      "is_scenario": true,
+      "question_text": "In a series of 100 test results, 99 values fall between 10 and 15, but one value is 450. As an auditor, how should you treat this value?",
+      "options": {
+        "A": "Include it in the mean to ensure the average is high",
+        "B": "Treat it as an outlier and investigate if it represents a process failure or a measurement error",
+        "C": "Delete it from the record because it's obviously a mistake",
+        "D": "Change it to 15 to make the data look consistent"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_60](start_span)"correct_rationale": "Outliers are significant deviations that require investigation to understand their cause.[span_60](end_span)",
+        "distractor_analysis": "Including it (A) distorts the mean. [span_61](start_span)Deleting (C) or changing it (D) is data falsification and unethical.[span_61](end_span)"
+      }
+    },
+    {
+      "id": "Q025",
+      "bok_reference": "V.C.2, Measures of Dispersion, Apply",
+      "difficulty": "Medium",
+      "is_scenario": false,
+      "question_text": "Which statistic measures the difference between the highest and lowest values in a data set?",
+      "options": {
+        "A": "Mean",
+        "B": "Range",
+        "C": "Variance",
+        "D": "Kurtosis"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_62](start_span)[span_63](start_span)"correct_rationale": "The range is the simplest measure of dispersion, calculated as the maximum minus the minimum.[span_62](end_span)[span_63](end_span)",
+        "distractor_analysis": "Mean (A) is the average. Variance (C) is the average of squared deviations. [span_64](start_span)Kurtosis (D) describes the shape/peak of the distribution.[span_64](end_span)"
+      }
+    },
+    {
+      "id": "Q026",
+      "bok_reference": "II.A.1, Planning Strategy, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "A lead auditor is assigned to audit a critical supplier after reports of significant field failures. The audit team has only two days to cover a massive manufacturing facility. Which auditing strategy is most appropriate?",
+      "options": {
+        "A": "A system audit covering every single requirement in the quality manual",
+        "B": "A discovery audit where the team follows whatever looks interesting",
+        "C": "A targeted process audit following the specific product line from raw materials to shipping (tracer method)",
+        "D": "Requesting the supplier to perform a self-audit and reviewing their results from home"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_65](start_span)[span_66](start_span)[span_67](start_span)"correct_rationale": "When time is limited and specific failures are known, a process audit (tracer method) focuses on the high-risk areas related to those failures.[span_65](end_span)[span_66](end_span)[span_67](end_span)",
+        "distractor_analysis": "A system audit (A) is too broad for two days in a massive facility. Discovery (B) is too unstructured. [span_68](start_span)[span_69](start_span)Self-audits (D) lack the necessary independence for a critical field failure investigation.[span_68](end_span)[span_69](end_span)"
+      }
+    },
+    {
+      "id": "Q027",
+      "bok_reference": "V.E.5, Risks in Sampling, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "In an attribute sampling plan (n=50, c=0), the auditor finds one defect in the sample. The auditor knows that the production lot contains 5,000 items. What is the correct statistical conclusion?",
+      "options": {
+        "A": "The lot is 98% good",
+        "B": "The lot must be rejected based on the sampling plan",
+        "C": "The auditor should take another 50 samples to be sure",
+        "D": "The auditor should ignore the defect because it's only one out of 5,000"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_70](start_span)[span_71](start_span)"correct_rationale": "In a c=0 plan, finding a single defect (nonconformity) requires the rejection of the entire lot according to the sampling criteria.[span_70](end_span)[span_71](end_span)",
+        "distractor_analysis": "You cannot conclude the lot is 98% good based on one sample (A). Taking more samples (C) to find a better result is 'sampling to a result' and is invalid. [span_72](start_span)Ignoring it (D) violates the plan.[span_72](end_span)"
+      }
+    },
+    {
+      "id": "Q028",
+      "bok_reference": "II.C.1, Reporting Findings, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "An audit team finds 12 minor nonconformities in a single department, all relating to operators using unapproved 'cheat sheets' instead of official procedures. How should the lead auditor report this?",
+      "options": {
+        "A": "As 12 separate minor nonconformities to show the volume of errors",
+        "B": "As a single major nonconformity indicating a systemic failure of document control",
+        "C": "As an 'Observation' because the operators were actually getting the work done correctly",
+        "D": "Delete them from the report and tell the manager to just fix it"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_73](start_span)[span_74](start_span)"correct_rationale": "A large number of similar minor nonconformities often points to a breakdown in the system (major nonconformity) rather than isolated incidents.[span_73](end_span)[span_74](end_span)",
+        "distractor_analysis": "Listing 12 separate minors (A) obscures the systemic issue. It is not an observation (C) because it violates the document control requirement. [span_75](start_span)Deleting them (D) is unethical.[span_75](end_span)"
+      }
+    },
+    {
+      "id": "Q029",
+      "bok_reference": "I.E.2, Legal Consequences, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "An auditor for a medical device company discovers that the company is knowingly shipping non-sterile products to save money. The auditor reports this to their manager, who tells them to 'keep quiet if you want a career.' According to professional and legal standards, what should the auditor do?",
+      "options": {
+        "A": "Keep quiet as instructed to maintain loyalty to the employer",
+        "B": "Report the issue through the company's whistleblower hotline or to the relevant regulatory authority (e.g., FDA)",
+        "C": "Resign immediately but say nothing to anyone else",
+        "D": "Blackmail the manager for a promotion"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_76](start_span)[span_77](start_span)"correct_rationale": "Auditors have a duty to society and safety that overrides employer loyalty, especially in regulated industries involving public harm.[span_76](end_span)[span_77](end_span)",
+        "distractor_analysis": "Keeping quiet (A) makes the auditor complicit. Resigning without reporting (C) fails the duty to protect the public. [span_78](start_span)Blackmail (D) is criminal.[span_78](end_span)"
+      }
+    },
+    {
+      "id": "Q030",
+      "bok_reference": "IV.A.5, Program Evaluation, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "A company’s internal audit program shows 100% compliance over three years, yet customer complaints for product quality have increased by 40%. What should the Audit Program Manager conclude?",
+      "options": {
+        "A": "The manufacturing team is doing a perfect job",
+        "B": "The audit program is ineffective and likely lacks rigor or is auditing the wrong criteria",
+        "C": "The customers are being too picky",
+        "D": "The audit program should be rewarded for finding no errors"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_79](start_span)[span_80](start_span)"correct_rationale": "A discrepancy between 'perfect' audit results and high customer failure rates suggests the audit program is not identifying the true risks or system weaknesses.[span_79](end_span)[span_80](end_span)",
+        "distractor_analysis": "The manufacturing team is clearly not perfect (A). Blaming customers (C) ignores the data. [span_81](start_span)Rewarding the program (D) reinforces a failure.[span_81](end_span)"
+      }
+    },
+    {
+      "id": "Q031",
+      "bok_reference": "V.A.2, Fishbone Diagrams, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "When constructing a Cause-and-Effect diagram for a complex defect, the team lists 'Temperature' and 'Humidity' under the 'Environment' category. They find that the defect only occurs on rainy days. What is the most likely 'special cause' based on this tool?",
+      "options": {
+        "A": "Operator fatigue",
+        "B": "Inconsistent raw materials",
+        "C": "Environmental conditions affecting the process",
+        "D": "A faulty measurement tool"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_82](start_span)"correct_rationale": "The fishbone diagram (Cause-and-Effect) helps categorize potential causes; identifying the link between rainy days and the defect points directly to the environment.[span_82](end_span)",
+        [span_83](start_span)"distractor_analysis": "Fatigue (A), materials (B), and tools (D) are other categories but the correlation to rain specifically supports environment.[span_83](end_span)"
+      }
+    },
+    {
+      "id": "Q032",
+      "bok_reference": "II.A.2, Auditor Selection, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "The Lead Auditor is selecting a team to audit the Finance department's quality controls. One potential auditor is the spouse of the Finance Director. How should the Lead Auditor handle this?",
+      "options": {
+        "A": "Include them because they have 'inside' knowledge",
+        "B": "Exclude them due to a clear conflict of interest (independence issue)",
+        "C": "Include them but tell them to be extra hard on the director",
+        "D": "Include them but have them only audit the administrative staff"
+      },
+      "correct_answer": "B",
+      "solution": {
+        "correct_rationale": "Auditors must be independent of the activity being audited to ensure objectivity. [span_84](start_span)[span_85](start_span)Family relationships with the auditee's management are a primary conflict.[span_84](end_span)[span_85](end_span)",
+        "distractor_analysis": "Inside knowledge (A) does not override the need for independence. [span_86](start_span)Being extra hard (C) or limiting scope (D) does not remove the perception of bias.[span_86](end_span)"
+      }
+    },
+    {
+      "id": "Q033",
+      "bok_reference": "V.G.2, FMEA, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "In a Failure Mode and Effects Analysis (FMEA), a failure mode has a Severity of 9, an Occurrence of 2, and a Detection of 2. What is the Risk Priority Number (RPN) and what does it suggest?",
+      "options": {
+        "A": "RPN 13; low priority",
+        "B": "RPN 36; moderate priority",
+        "C": "RPN 36; high priority because of the high severity",
+        "D": "RPN 4; extremely low priority"
+      },
+      "correct_answer": "C",
+      "solution": {
+        "correct_rationale": "RPN is S x O x D (9 x 2 x 2 = 36). [span_87](start_span)While the total RPN is low, high severity (9) often triggers mandatory action regardless of the total score.[span_87](end_span)",
+        "distractor_analysis": "RPN is not calculated by addition (A). [span_88](start_span)While 36 is numerically low (B, D), a severity of 9 indicates a critical safety or regulatory risk that cannot be ignored.[span_88](end_span)"
+      }
+    },
+    {
+      "id": "Q034",
+      "bok_reference": "II.B.4, Objective Evidence, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "During an audit of a warehouse, the auditor sees an unlabeled drum leaking a green fluid. The warehouse manager says it is 'just soapy water.' What is the auditor's most appropriate action?",
+      "options": {
+        "A": "Accept the manager's word and move on",
+        "B": "Document the observation and request a Safety Data Sheet (SDS) and verification of the drum's contents",
+        "C": "Dip their finger in the fluid to see if it feels like soap",
+        "D": "Call the fire department immediately without further investigation"
+      },
+      "correct_answer": "B",
+      "solution": {
+        "correct_rationale": "Verbal statements are not objective evidence. [span_89](start_span)Documentation and checking against requirements (labeling, SDS) are required.[span_89](end_span)",
+        "distractor_analysis": "Accepting the word (A) is poor auditing. Touching unknown chemicals (C) is a safety violation. [span_90](start_span)[span_91](start_span)Calling the fire department (D) might be premature until the level of hazard is assessed via management.[span_90](end_span)[span_91](end_span)"
+      }
+    },
+    {
+      "id": "Q035",
+      "bok_reference": "IV.B.1, Management Tool, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "An organization is facing a 20% budget cut. The CEO asks the Quality Auditor how the audit program provides a return on investment (ROI). Which response is most accurate?",
+      "options": {
+        "A": "Audits ensure we follow the rules so we don't get sued",
+        "B": "Audits identify systemic inefficiencies and failure costs, enabling targeted improvements that reduce waste",
+        "C": "Audits are a requirement and don't need to show ROI",
+        "D": "Audits help us catch employees who aren't working hard"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_92](start_span)[span_93](start_span)"correct_rationale": "Modern auditing serves as a management tool for risk management and identifying opportunities for cost reduction (internal failures).[span_92](end_span)[span_93](end_span)",
+        "distractor_analysis": "Compliance (A) is a benefit but not a full ROI. Saying ROI doesn't matter (C) is a poor business answer. [span_94](start_span)Surveillance (D) is not the purpose of quality audits.[span_94](end_span)"
+      }
+    },
+    {
+      "id": "Q036",
+      "bok_reference": "II.C.1, Effective Reports, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "A lead auditor is reviewing a draft report from a team member. The report contains phrases like 'I think,' 'it seemed like,' and 'the staff was lazy.' What is the primary reason the lead auditor should reject this draft?",
+      "options": {
+        "A": "It is not written in Calibri font",
+        "B": "It lacks professional objectivity and uses subjective language instead of objective evidence",
+        "C": "It is too short",
+        "D": "It doesn't include the manager's home address"
+      },
+      "correct_answer": "B",
+      "solution": {
+        "correct_rationale": "Audit reports must be factual, objective, and neutral. [span_95](start_span)[span_96](start_span)Subjective opinions and inflammatory language undermine the audit's credibility.[span_95](end_span)[span_96](end_span)",
+        [span_97](start_span)"distractor_analysis": "Font (A), length (C), and personal addresses (D) are irrelevant compared to the fundamental lack of objectivity.[span_97](end_span)"
+      }
+    },
+    {
+      "id": "Q037",
+      "bok_reference": "V.F.1, Configuration Management, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "During a product audit, the auditor finds that the physical product matches the assembly drawing, but the drawing version does not match the 'Master Bill of Materials.' This is primarily a failure of:",
+      "options": {
+        "A": "Machine calibration",
+        "B": "Configuration management and change control",
+        "C": "Operator training",
+        "D": "Physical security"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_98](start_span)"correct_rationale": "Configuration management ensures that all product attributes and documentation are consistent and controlled.[span_98](end_span)",
+        "distractor_analysis": "Calibration (A) and security (D) are unrelated. [span_99](start_span)Training (C) might be a symptom, but the core failure is document/configuration control.[span_99](end_span)"
+      }
+    },
+    {
+      "id": "Q038",
+      "bok_reference": "II.B.5, Exit Meeting, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "During the exit meeting, the auditee's manager refuses to sign the audit finding form because they disagree with the severity of one nonconformity. What should the lead auditor do?",
+      "options": {
+        "A": "Delete the finding to make the manager happy",
+        "B": "Note the manager's disagreement in the report but maintain the finding if it is supported by evidence",
+        "C": "Refuse to leave the room until the manager signs",
+        "D": "Change the nonconformity into an 'Observation' to compromise"
+      },
+      "correct_answer": "B",
+      "solution": {
+        "correct_rationale": "While auditors should seek consensus, the integrity of the evidence-based finding must be maintained. [span_100](start_span)[span_101](start_span)Disagreements should be documented.[span_100](end_span)[span_101](end_span)",
+        "distractor_analysis": "Deleting (A) or compromising (D) without evidence violates audit principles. [span_102](start_span)Forcing a signature (C) is unprofessional and unproductive.[span_102](end_span)"
+      }
+    },
+    {
+      "id": "Q039",
+      "bok_reference": "V.B.1, Six Sigma, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": false,
+      "question_text": "In a DMAIC project, which phase is focused on identifying the root causes of defects using statistical tools?",
+      "options": {
+        "A": "Define",
+        "B": "Measure",
+        "C": "Analyze",
+        "D": "Improve"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_103](start_span)"correct_rationale": "The 'Analyze' phase of DMAIC uses data to determine the root causes of the problem.[span_103](end_span)",
+        "distractor_analysis": "Define (A) sets goals. Measure (B) collects data on the current state. [span_104](start_span)Improve (D) develops solutions.[span_104](end_span)"
+      }
+    },
+    {
+      "id": "Q040",
+      "bok_reference": "I.B.1, Audit Purpose, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "A company is planning to acquire a smaller competitor. They commission an audit of the competitor's quality system to identify potential liabilities. What is the scope of this audit?",
+      "options": {
+        "A": "Internal audit",
+        "B": "Due diligence audit",
+        "C": "Product audit",
+        "D": "Registration audit"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_105](start_span)"correct_rationale": "Due diligence audits are performed to assess the risks and status of an organization prior to a business transaction like an acquisition.[span_105](end_span)",
+        "distractor_analysis": "It's not internal (A) because they are separate companies. Product audits (C) are too narrow. [span_106](start_span)Registration (D) is for certification.[span_106](end_span)"
+      }
+    },
+    {
+      "id": "Q041",
+      "bok_reference": "V.E.2, Statistical Sampling, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": false,
+      "question_text": "What is the primary difference between 'Variables' sampling and 'Attributes' sampling?",
+      "options": {
+        "A": "Variables uses yes/no; Attributes uses continuous measurements",
+        "B": "Variables uses continuous measurements (e.g., length); Attributes uses discrete data (e.g., pass/fail)",
+        "C": "Variables sampling is only for first-party audits",
+        "D": "There is no difference; the terms are interchangeable"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_107](start_span)"correct_rationale": "Attribute sampling deals with discrete data (conformity/nonconformity), while variable sampling deals with continuous scales.[span_107](end_span)",
+        "distractor_analysis": "A reverses the definitions. C is false. [span_108](start_span)D is false.[span_108](end_span)"
+      }
+    },
+    {
+      "id": "Q042",
+      "bok_reference": "II.A.5, Logistics, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "An auditor is conducting a remote audit of a facility in another country via video link. The internet connection is unstable, and the auditor cannot clearly see the labels on the parts. What should the auditor do?",
+      "options": {
+        "A": "Assume the labels are correct and continue",
+        "B": "Stop the audit and report that the audit objectives could not be met due to technical limitations",
+        "C": "Ask the auditee to just read the labels out loud and take their word for it",
+        "D": "Wait until the next day and hope the internet is better without telling anyone"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_109](start_span)[span_110](start_span)"correct_rationale": "If objective evidence cannot be verified due to logistics or technology, the auditor must inform the client and adjust the plan.[span_109](end_span)[span_110](end_span)",
+        "distractor_analysis": "Assumptions (A) and verbal-only evidence (C) are not objective evidence. [span_111](start_span)Doing nothing (D) wastes time and resources.[span_111](end_span)"
+      }
+    },
+    {
+      "id": "Q043",
+      "bok_reference": "V.C.2, Standard Deviation, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "In a Normal distribution, what percentage of data points are expected to fall within +/- 3 standard deviations of the mean?",
+      "options": {
+        "A": "68.26%",
+        "B": "95.44%",
+        "C": "99.73%",
+        "D": "50.00%"
+      },
+      "correct_answer": "C",
+      "solution": {
+        [span_112](start_span)"correct_rationale": "The 68-95-99.7 rule (Empirical Rule) defines the spread of data in a normal distribution.[span_112](end_span)",
+        "distractor_analysis": "68% is 1 SD (A). 95% is 2 SD (B). [span_113](start_span)50% is the median/mean split (D).[span_113](end_span)"
+      }
+    },
+    {
+      "id": "Q044",
+      "bok_reference": "I.C.1, Audit Criteria, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "An auditor is auditing against a contract that requires 'World Class Quality.' The auditee has a 5% defect rate, which is industry average. How should the auditor evaluate this?",
+      "options": {
+        "A": "As a nonconformity because 5% is not 'World Class'",
+        "B": "As a conformity because they are at the industry average",
+        "C": "Note that the criteria is poorly defined (vague) and difficult to audit objectively",
+        "D": "Define 'World Class' as 0% and write a major nonconformity"
+      },
+      "correct_answer": "C",
+      "solution": {
+        "correct_rationale": "Audit criteria must be objective and measurable. [span_114](start_span)[span_115](start_span)Vague terms like 'World Class' lead to subjective findings.[span_114](end_span)[span_115](end_span)",
+        "distractor_analysis": "Writing a nonconformity based on a subjective definition (A, D) is poor practice. [span_116](start_span)Assuming average is 'World Class' (B) is also subjective.[span_116](end_span)"
+      }
+    },
+    {
+      "id": "Q045",
+      "bok_reference": "IV.A.4, Program Management, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": false,
+      "question_text": "What is the primary benefit of 'Risk-Based Auditing' for an organization?",
+      "options": {
+        "A": "It ensures every department is audited every month",
+        "B": "It focuses limited audit resources on the areas most likely to impact product quality or safety",
+        "C": "It eliminates the need for any audits of low-risk areas",
+        "D": "It makes the auditors more popular with the staff"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_117](start_span)"correct_rationale": "Risk-based auditing prioritizes resources based on the probability and impact of failures.[span_117](end_span)",
+        "distractor_analysis": "Audit frequency (A) should be determined by risk, not a flat schedule. Low-risk areas still need occasional oversight (C). [span_118](start_span)Popularity (D) is irrelevant.[span_118](end_span)"
+      }
+    },
+    {
+      "id": "Q046",
+      "bok_reference": "V.B.3, 5S, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "An auditor walking through a plant sees tools scattered on the floor and unmarked containers of scrap. This is a direct failure of which 5S stage?",
+      "options": {
+        "A": "Sort (Seiri)",
+        "B": "Set in Order (Seiton)",
+        "C": "Shine (Seiso)",
+        "D": "Standardize (Seiketsu)"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_119](start_span)"correct_rationale": "Seiton (Set in Order) is about having a place for everything and everything in its place with clear labeling.[span_119](end_span)",
+        "distractor_analysis": "Sort (A) is removing unneeded items. Shine (C) is cleaning. [span_120](start_span)Standardize (D) is maintaining the first three.[span_120](end_span)"
+      }
+    },
+    {
+      "id": "Q047",
+      "bok_reference": "III.A.2, Interpersonal Skills, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "A junior auditor is being mentored by a senior auditor. The junior auditor keeps interrupting the auditee during interviews to correct their grammar. What advice should the senior auditor give?",
+      "options": {
+        "A": "Good job, accuracy in all things is important",
+        "B": "Stop interrupting; it damages rapport and may prevent the auditee from sharing important information",
+        "C": "Ask the auditee to leave the room",
+        "D": "Tell the junior auditor to just write down the grammar mistakes instead of saying them out loud"
+      },
+      "correct_answer": "B",
+      "solution": {
+        "correct_rationale": "Auditors must maintain effective interpersonal skills and rapport to facilitate information flow. [span_121](start_span)[span_122](start_span)Interrupting for irrelevant reasons is counterproductive.[span_121](end_span)[span_122](end_span)",
+        [span_123](start_span)"distractor_analysis": "Interpersonal rapport is critical; grammar corrections (A, D) are usually irrelevant to quality audit objectives and damage communication.[span_123](end_span)"
+      }
+    },
+    {
+      "id": "Q048",
+      "bok_reference": "V.A.7, Histograms, Analyze",
+      "difficulty": "Hard",
+      "is_scenario": false,
+      "question_text": "A bimodal distribution in a histogram most likely suggests:",
+      "options": {
+        "A": "A perfectly stable process",
+        "B": "Data from two different populations (e.g., two different machines or shifts) mixed together",
+        "C": "A process with no variation",
+        "D": "A normal distribution"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_124](start_span)"correct_rationale": "A bimodal (two-peaked) histogram indicates that the data comes from two distinct sources or conditions.[span_124](end_span)",
+        "distractor_analysis": "A normal distribution (D) has one peak. Stability (A) usually shows a bell curve. [span_125](start_span)No variation (C) would be a single vertical line.[span_125](end_span)"
+      }
+    },
+    {
+      "id": "Q049",
+      "bok_reference": "I.A.3, Auditor Purpose, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "An auditor is asked to perform a 'Process Audit' on a new manufacturing line. During the audit, the auditor notices that the company’s overall Quality Manual hasn't been updated for 5 years. What should the auditor do?",
+      "options": {
+        "A": "Ignore the manual, as it's not part of a process audit",
+        "B": "Expand the scope to include a full system audit of the manual",
+        "C": "Note the outdated manual as an observation or finding, as it provides the context for the process being audited",
+        "D": "Tell the client they are failing and leave"
+      },
+      "correct_answer": "C",
+      "solution": {
+        "correct_rationale": "While a process audit is focused, auditors must consider the system context. [span_126](start_span)[span_127](start_span)An outdated manual is a risk to the consistency of all processes.[span_126](end_span)[span_127](end_span)",
+        "distractor_analysis": "A is wrong because processes depend on the system. [span_128](start_span)[span_129](start_span)B is wrong because auditors can't unilaterally expand scope without client approval.[span_128](end_span)[span_129](end_span)"
+      }
+    },
+    {
+      "id": "Q050",
+      "bok_reference": "II.C.1, Final Report, Evaluate",
+      "difficulty": "Hard",
+      "is_scenario": true,
+      "question_text": "The final audit report is ready to be sent. The auditor realizes they accidentally included the name of a whistleblower who provided sensitive information in confidence. What is the correct action?",
+      "options": {
+        "A": "Send it anyway; they shouldn't have talked if they didn't want their name used",
+        "B": "Retract the draft, remove the name to protect confidentiality, and then issue the report",
+        "C": "Call the whistleblower and apologize after sending it",
+        "D": "Delete the entire section of the report so no one gets in trouble"
+      },
+      "correct_answer": "B",
+      "solution": {
+        [span_130](start_span)[span_131](start_span)"correct_rationale": "Auditors have a strict ethical and professional duty to maintain confidentiality and protect sources.[span_130](end_span)[span_131](end_span)",
+        "distractor_analysis": "Sending it (A) is an ethical breach. Apologizing later (C) does not fix the harm. [span_132](start_span)Deleting evidence (D) is improper reporting; only the identifying information should be removed.[span_132](end_span)"
+      }
+    }
+  ]
+}
